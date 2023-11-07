@@ -51,6 +51,16 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+/* Применение Comfortaa к заголовкам и тексту */
+h1, p {
+    font-family: 'Comfortaa';
+}
+
+/* Применение Comfortaa к элементам формы */
+input {
+    font-family: 'Comfortaa', cursive;
+}
+
 .form-row input[type="email"] {
     width: 320px; /* Установите необходимую ширину в пикселях */
 }
