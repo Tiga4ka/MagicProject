@@ -51,15 +51,6 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-/* Применение Comfortaa к заголовкам и тексту */
-h1, p {
-    font-family: 'Comfortaa';
-}
-
-/* Применение Comfortaa к элементам формы */
-input {
-    font-family: 'Comfortaa', cursive;
-}
 
 .form-row input[type="email"] {
     width: 320px; /* Установите необходимую ширину в пикселях */
@@ -67,4 +58,25 @@ input {
 
 input[type="submit"]:hover {
     background-color: #FF1493; /* Darker Pink on Hover */
+}
+
+/* Шрифт и размер */
+h1 {
+  font-family: "Comfortaa", cursive;
+  font-size: 36px; 
+}
+
+p {
+  font-family: "Comfortaa", cursive;
+  font-size: 20px; 
+}
+
+
+/* Применение Comfortaa к элементам формы */
+input {
+    font-family: 'Comfortaa', cursive;
+}
+
+small {
+  font-size: 14px; 
 }
