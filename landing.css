@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: white;
+    margin-top: 2cm; /* Отступ 2 см сверху */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; /* Отступы вокруг контейнера */
+}
+
+.left-content {
+    flex: 1;
+}
+
+.left-content h1 {
+    color: white;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+/* Применяем отступ снизу только для элементов с классом bottom-margin */
+.bottom-margin {
+    margin-bottom: 60px; /* Установите необходимое значение отступа в пикселях */
+}
+
+/* Увеличение ширины кнопки и изменение стилей */
+input[type="submit"] {
+    width: 97%; /* Кнопка занимает всю доступную ширину */
+    background-color: #FF69B4; /* Dark Pink */
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-row input[type="email"] {
+    width: 320px; /* Установите необходимую ширину в пикселях */
+}
+
+input[type="submit"]:hover {
+    background-color: #FF1493; /* Darker Pink on Hover */
+}
